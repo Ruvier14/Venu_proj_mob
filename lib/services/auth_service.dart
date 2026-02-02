@@ -71,9 +71,9 @@ class AuthService extends ChangeNotifier {
   String _getErrorMessage(String code) {
     switch (code) {
       case 'user-not-found':
-        return 'No user found with this email.';
       case 'wrong-password':
-        return 'Wrong password provided.';
+      case 'invalid-credential':
+        return 'Invalid email or password.';
       case 'email-already-in-use':
         return 'An account already exists with this email.';
       case 'invalid-email':
