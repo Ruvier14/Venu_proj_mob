@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       home: const Scaffold(
         body: Center(
           child: Text(
-            'Venu - Task Management App',
+            'Venu',
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
         ),
