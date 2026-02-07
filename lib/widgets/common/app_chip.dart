@@ -89,19 +89,19 @@ class StatusChip extends StatelessWidget {
     switch (status) {
       case AppChipStatus.todo:
         backgroundColor = AppColors.surfaceVariant;
-        textColor = AppColors.statusTodo;
+        textColor = AppColors.textSecondary;
         break;
       case AppChipStatus.inProgress:
         backgroundColor = AppColors.infoLight;
-        textColor = AppColors.statusInProgress;
+        textColor = AppColors.info;
         break;
       case AppChipStatus.completed:
         backgroundColor = AppColors.successLight;
-        textColor = AppColors.statusCompleted;
+        textColor = AppColors.success;
         break;
       case AppChipStatus.cancelled:
         backgroundColor = AppColors.errorLight;
-        textColor = AppColors.statusCancelled;
+        textColor = AppColors.error;
         break;
     }
 
@@ -131,19 +131,19 @@ class PriorityChip extends StatelessWidget {
     switch (priority) {
       case AppChipPriority.high:
         backgroundColor = AppColors.errorLight;
-        textColor = AppColors.priorityHigh;
+        textColor = AppColors.error;
         break;
       case AppChipPriority.medium:
         backgroundColor = AppColors.warningLight;
-        textColor = AppColors.priorityMedium;
+        textColor = AppColors.warning;
         break;
       case AppChipPriority.low:
         backgroundColor = AppColors.successLight;
-        textColor = AppColors.priorityLow;
+        textColor = AppColors.success;
         break;
       case AppChipPriority.none:
         backgroundColor = AppColors.surfaceVariant;
-        textColor = AppColors.priorityNone;
+        textColor = AppColors.textTertiary;
         break;
     }
 

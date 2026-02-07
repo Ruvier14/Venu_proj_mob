@@ -1,83 +1,78 @@
 import 'package:flutter/material.dart';
 
-/// App Colors for Venu - Professional Task Management Theme
+/// App Colors for Venu - Event Venue Booking Platform
 class AppColors {
   AppColors._();
 
-  // Primary Colors - Modern Indigo/Purple for productivity
-  static const Color primary = Color(0xFF6366F1);
-  static const Color primaryLight = Color(0xFF818CF8);
-  static const Color primaryDark = Color(0xFF4F46E5);
-  static const Color primaryContainer = Color(0xFFE0E7FF);
+  // Primary Colors - Venu Blue
+  static const Color primary = Color(0xFF1A8FE3);
+  static const Color primaryLight = Color(0xFF4DA9ED);
+  static const Color primaryDark = Color(0xFF1272B8);
+  static const Color primaryContainer = Color(0xFFE3F2FD);
 
-  // Secondary Colors - Teal for success/completion
-  static const Color secondary = Color(0xFF14B8A6);
-  static const Color secondaryLight = Color(0xFF5EEAD4);
-  static const Color secondaryDark = Color(0xFF0D9488);
-  static const Color secondaryContainer = Color(0xFFCCFBF1);
+  // Secondary Colors - Warm Coral for accents
+  static const Color secondary = Color(0xFFFF5A5F);
+  static const Color secondaryLight = Color(0xFFFF8A8E);
+  static const Color secondaryDark = Color(0xFFE04347);
+  static const Color secondaryContainer = Color(0xFFFFEBEE);
 
-  // Accent Colors
-  static const Color accent = Color(0xFFF59E0B);
+  // Accent Colors - Amber for badges/highlights
+  static const Color accent = Color(0xFFF5A623);
   static const Color accentLight = Color(0xFFFCD34D);
   static const Color accentDark = Color(0xFFD97706);
 
   // Background Colors
-  static const Color background = Color(0xFFFAFAFA);
+  static const Color background = Color(0xFFF7F7F7);
   static const Color surface = Color(0xFFFFFFFF);
   static const Color surfaceVariant = Color(0xFFF3F4F6);
-  static const Color surfaceDark = Color(0xFF1F2937);
+  static const Color surfaceDark = Color(0xFF1A1A2E);
 
   // Text Colors
-  static const Color textPrimary = Color(0xFF111827);
-  static const Color textSecondary = Color(0xFF6B7280);
-  static const Color textTertiary = Color(0xFF9CA3AF);
+  static const Color textPrimary = Color(0xFF222222);
+  static const Color textSecondary = Color(0xFF717171);
+  static const Color textTertiary = Color(0xFFB0B0B0);
   static const Color textOnPrimary = Color(0xFFFFFFFF);
   static const Color textOnDark = Color(0xFFF9FAFB);
 
   // Border Colors
-  static const Color border = Color(0xFFE5E7EB);
-  static const Color borderLight = Color(0xFFF3F4F6);
+  static const Color border = Color(0xFFDDDDDD);
+  static const Color borderLight = Color(0xFFEEEEEE);
   static const Color borderDark = Color(0xFF374151);
 
   // Status Colors
-  static const Color success = Color(0xFF10B981);
+  static const Color success = Color(0xFF00A699);
   static const Color successLight = Color(0xFFD1FAE5);
-  static const Color warning = Color(0xFFF59E0B);
+  static const Color warning = Color(0xFFF5A623);
   static const Color warningLight = Color(0xFFFEF3C7);
-  static const Color error = Color(0xFFEF4444);
-  static const Color errorLight = Color(0xFFFEE2E2);
-  static const Color info = Color(0xFF3B82F6);
-  static const Color infoLight = Color(0xFFDBEAFE);
+  static const Color error = Color(0xFFFF5A5F);
+  static const Color errorLight = Color(0xFFFFEBEE);
+  static const Color info = Color(0xFF1A8FE3);
+  static const Color infoLight = Color(0xFFE3F2FD);
 
   // Shadow Colors
   static const Color shadow = Color(0x1A000000);
   static const Color shadowLight = Color(0x0D000000);
 
-  // Task Priority Colors
-  static const Color priorityHigh = Color(0xFFEF4444);
-  static const Color priorityMedium = Color(0xFFF59E0B);
-  static const Color priorityLow = Color(0xFF10B981);
-  static const Color priorityNone = Color(0xFF9CA3AF);
+  // Venue Status Colors
+  static const Color statusInReview = Color(0xFFF5A623);
+  static const Color statusActive = Color(0xFF00A699);
+  static const Color statusInactive = Color(0xFFB0B0B0);
 
-  // Task Status Colors
-  static const Color statusTodo = Color(0xFF6B7280);
-  static const Color statusInProgress = Color(0xFF3B82F6);
-  static const Color statusCompleted = Color(0xFF10B981);
-  static const Color statusCancelled = Color(0xFFEF4444);
+  // Rating Colors
+  static const Color ratingstar = Color(0xFFFFB400);
+
+  // Heart/Favorite
+  static const Color heartActive = Color(0xFFFF5A5F);
+  static const Color heartInactive = Color(0xFFFFFFFF);
 
   // Gradient Colors
   static const List<Color> primaryGradient = [
-    Color(0xFF6366F1),
-    Color(0xFF8B5CF6),
-  ];
-
-  static const List<Color> secondaryGradient = [
-    Color(0xFF14B8A6),
-    Color(0xFF06B6D4),
+    Color(0xFF1A8FE3),
+    Color(0xFF4DA9ED),
   ];
 
   static const List<Color> darkGradient = [
-    Color(0xFF1F2937),
-    Color(0xFF111827),
+    Color(0xFF1A1A2E),
+    Color(0xFF16213E),
   ];
 }
